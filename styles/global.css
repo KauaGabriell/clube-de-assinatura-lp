@@ -25,33 +25,27 @@
   --text-label: #bac6c9;
 
   /*Tipografia*/
+
   --font-family-base: "Raleway", sans-serif;
 
-  --font-title-lg: 48px;
-  --font-title-md: 40px;
-  --font-title-sm: 32px;
-  --font-title-xs: 16px;
+  --text-title-lg: 700 48px / normal var(--font-family-base);
+  --text-title-md: 700 40px / normal var(--font-family-base);
+  --text-title-sm: 700 32px / normal var(--font-family-base);
+  --text-title-xs: 700 16px / normal var(--font-family-base);
 
-  --font-subtitle: 32px;
+  --text-subtitle: 500 32px/2 var(--font-family-base);
 
-  --font-body-lg: 20px;
-  --font-body-md: 16px;
-  --font-body-sm: 14px;
-  --font-body-xs: 12px;
+  --text-body-lg: 400 20px/1.4 var(--font-family-base);
+  --text-body-md: 400 16px/1.4 var(--font-family-base);
+  --text-body-sm: 400 14px/1.4 var(--font-family-base);
+  --text-body-xs: 400 12px/1.4 var(--font-family-base);
 
-  --font-button: 14px;
-  --font-link: 14px;
-  --font-tag: 10px;
-
-  --line-height-auto: normal;
-  --line-height-140: 1.4;
-  --line-height-200: 2;
-
-  --font-weight-regular: 400;
-  --font-weight-medium: 500;
-  --font-weight-bold: 700;
-
-  --letter-spacing-default: 0;
-  --letter-spacing-uppercase: 5%;
+  --text-button: 700 14px / normal var(--font-family-base);
+  --text-link: 500 14px / normal var(--font-family-base);
+  --text-tag: 700 10px / normal var(--font-family-base);
 }
 
+.container {
+  max-width: 70rem;
+  margin-inline: auto;
+}
