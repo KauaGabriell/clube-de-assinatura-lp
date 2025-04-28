@@ -1,0 +1,57 @@
+/*Reset Css*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Variáveis de Cores*/
+:root {
+  --pink-light: #c59dd2;
+  --pink-base: #9547a5;
+  --pink-dark: #7d298a;
+  --pink-low: #3f0f41;
+  --blue-light: #73b6d2;
+  --blue-base: #358bb9;
+  --blue-mid: #2374a4;
+  --blue-dark: #144a72;
+  --blue-low: #08233c;
+  --shape-stroke: #002347;
+  --shape-hover: #001933;
+  --shape-base: #000f1f;
+  --shape-background: #00050a;
+  --text-title: #f8fbfb;
+  --text-body: #e2e7e9;
+  --text-label: #bac6c9;
+
+  /*Tipografia*/
+  --font-family-base: "Raleway", sans-serif;
+
+  --font-title-lg: 48px;
+  --font-title-md: 40px;
+  --font-title-sm: 32px;
+  --font-title-xs: 16px;
+
+  --font-subtitle: 32px;
+
+  --font-body-lg: 20px;
+  --font-body-md: 16px;
+  --font-body-sm: 14px;
+  --font-body-xs: 12px;
+
+  --font-button: 14px;
+  --font-link: 14px;
+  --font-tag: 10px;
+
+  --line-height-auto: normal;
+  --line-height-140: 1.4;
+  --line-height-200: 2;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  --letter-spacing-default: 0;
+  --letter-spacing-uppercase: 5%;
+}
+
